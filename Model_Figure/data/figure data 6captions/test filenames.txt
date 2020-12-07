@@ -1,0 +1,12 @@
+blue circle test1
+blue circle test2
+blue rectangle test1
+blue rectangle test2
+green circle test1
+green circle test2
+green triangle test1
+green triangle test2
+red rectangle test1
+red rectangle test2
+red triangle test1
+red triangle test2

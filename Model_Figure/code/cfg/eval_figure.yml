@@ -1,0 +1,30 @@
+CONFIG_NAME: 'attn2'
+
+DATASET_NAME: 'figure'
+DATA_DIR: '../data/various captions'
+GPU_ID: 3
+WORKERS: 1
+
+B_VALIDATION: False  # True  # False
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G: '../models/various captions_AttnGAN2.pth'
+    B_NET_D: False
+    BATCH_SIZE: 10
+    NET_E: '../DAMSMencoders/various captions/text_encoder600.pth'
+
+
+GAN:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 6
+    WORDS_NUM: 15

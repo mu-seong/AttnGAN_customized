@@ -1,0 +1,6 @@
+There is a blue circle on the white background.
+It is a blue square with four lines.
+There is a green circle on the white background.
+It is a green triangle with three lines.
+It is a red square with four lines.
+It is a red triangle with three lines.
